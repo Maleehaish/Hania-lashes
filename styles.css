@@ -1,43 +1,38 @@
 
-body{
+body {
     width: 100%;
     height: 100vh;
     margin: 0;
     background-color: #f4c2c2;
     color: hotpink;
-    font-family: Medium Italic;
+    font-family: 'Arial', sans-serif;
     font-size: 16px;
     padding: 0em;
-   }
-   
-   
-   h1{
+}
+
+h1 {
     text-align: center;
     margin: 1em auto;
     color: #FF69B4;
-    font-family: italic;
-   }
-   
-   
-   h2{
+    font-style: italic;
+}
+
+h2 {
     text-align: center;
     margin: 1em auto;
     color: #DE3163;
-   }
-   
-   
-   p, description {
+}
+
+#description {
     text-align: center;
-    color: DE3163;
-    }
-   
-   
-   form{
+    color: #DE3163;
+}
+
+form {
     text-align: center;
-   }
-   
-   
-   input[type="submit"] {
+}
+
+input[type="submit"] {
     display: block;
     width: 20%;
     margin: 1em auto;
@@ -45,7 +40,6 @@ body{
     font-size: 0.8rem;
     color: hotpink;
     background-color: white;
-    border-color: hotpink;
+    border: 2px solid hotpink;
     min-width: 100px;
-   }
-   
+}
