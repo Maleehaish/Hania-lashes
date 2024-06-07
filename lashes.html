@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Sample Form</title>
+</head>
+<body>
+<h1 id="title"> Lashed By Hania </h1>
+<h2> Survey form </h2>
+<br><p id="description"> I hope you enjoyed your lash service. Please do take the time to reveiw your experience below and help improve customer satisfaction. </p><br>
+<form id="survey-form" value="Maleeha">
+<label id="name-label">What is your name?</label><input id="name" required placeholder="Enter your name" type="text"><br></form>
+<form id="survey-form" value="maleehaish@icloud.com">
+<label id="email-label">What is your email?</label><input id="email" required placeholder="Enter your email" type="email"><br></form>
+<form id="survey-form" value="24">
+<label id="number-label">How old are you?</label>
+<input id="number" required placeholder="Age" type="number" min="18" max="100" ><br></form>
+<br><form id="survey-form" value="satisfied">
+ <label for="satisfaction">How satisfied are you with the service?</label><br>
+  <br><input type="checkbox" name="Very Happy" value="Very Happy"><label for="item1">Very Happy</label></br>
+  <input type="checkbox" name="Happy" value="Happy"><label for="item1">Happy</label>
+  <br><input type="checkbox" name="Not sure" value="Not sure"><label for="item1">Not sure</label>
+  <br><input type="checkbox" name="Unsatisfied" value="Unsatisfied"><label for="item1">Unsatisfied</label>
+  <br><label for="style"><br>What lash style did you recieve?</label><br>
+  <br><select id="dropdown">
+    <option id="dropdown" value="Cat eye">Cat eye</option>
+    <option value="Doll eye"id="dropdown">Doll eye</option>
+    <option value="Whispy eye" id="dropdown">Whispy eye</option>
+    <option value="Russian eye" id="dropdown">Russian eye</option>
+    <option value="Other" id="dropdown">Other</option>
+  </select><br>
+  <br><label>If you chose "Other", please specifiy your measurments below.
+ <br><input type="text" placeholder="Specifiy lash measurments"><br>
+ <br><label for="lash-picture">Would you like to upload a picture?<input id="lash-picture" type="file" name="file"/></label><br>
+  <br><label>Would you reccomend my service to others?</label><br>
+  <br><input value="yes" type="radio" name="attribute"><label for="Yes">Yes</label>
+  <br><input value="no" type="radio" name="attribute"><label for="No">No</label><br>
+<br><label for="why">If you've selected "No", please explain why?</label><br>
+<textarea id="bio" name="bio" rows="3" cols="30"></textarea><br>
+  <br><label>What changes would you make to the service or lashes?</label><br>
+  <textarea id="bio" name="bio" rows="3" cols="30"></textarea><br>
+  <br><input type="submit" id="submit">
+  <link rel="stylesheet" href="styles.css">
+</form>
+</body>
+</html>
