@@ -20,11 +20,17 @@
       <label id="number-label" for="number">How old are you?</label>
       <input id="number" name="age" required placeholder="Age" type="number" min="18" max="100"><br>
 
-      <label for="satisfaction">How satisfied are you with the service?</label><br>
-      <input type="checkbox" name="satisfaction" value="Very Happy" id="very-happy"><label for="very-happy">Very Happy</label><br>
-      <input type="checkbox" name="satisfaction" value="Happy" id="happy"><label for="happy">Happy</label><br>
-      <input type="checkbox" name="satisfaction" value="Not sure" id="not-sure"><label for="not-sure">Not sure</label><br>
-      <input type="checkbox" name="satisfaction" value="Unsatisfied" id="unsatisfied"><label for="unsatisfied">Unsatisfied</label><br>
+      <fieldset>
+         <legend>How satisfied are you with the service?</legend>
+         <input type="checkbox" name="satisfaction" value="Very Happy" id="very-happy">
+         <label for="very-happy">Very Happy</label><br>
+         <input type="checkbox" name="satisfaction" value="Happy" id="happy">
+         <label for="happy">Happy</label><br>
+         <input type="checkbox" name="satisfaction" value="Not sure" id="not-sure">
+         <label for="not-sure">Not sure</label><br>
+         <input type="checkbox" name="satisfaction" value="Unsatisfied" id="unsatisfied">
+         <label for="unsatisfied">Unsatisfied</label><br>
+      </fieldset>
 
       <label for="style">What lash style did you receive?</label><br>
       <select id="dropdown" name="style">
@@ -41,9 +47,13 @@
       <label for="lash-picture">Would you like to upload a picture?</label>
       <input id="lash-picture" type="file" name="file"><br>
 
-      <label>Would you recommend my service to others?</label><br>
-      <input value="yes" type="radio" name="recommend" id="yes"><label for="yes">Yes</label><br>
-      <input value="no" type="radio" name="recommend" id="no"><label for="no">No</label><br>
+      <fieldset>
+         <legend>Would you recommend my service to others?</legend>
+         <input value="yes" type="radio" name="recommend" id="yes">
+         <label for="yes">Yes</label><br>
+         <input value="no" type="radio" name="recommend" id="no">
+         <label for="no">No</label><br>
+      </fieldset>
 
       <label for="why">If you've selected "No", please explain why?</label><br>
       <textarea id="why" name="why" rows="3" cols="30"></textarea><br>
@@ -55,3 +65,4 @@
    </form>
 </body>
 </html>
+
